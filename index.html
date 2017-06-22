@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <div class="adj-section">
+    <div class="time-adj">
+      <p>Session Length</p>
+      <a id="time-down">-</a>
+      <span id="session-length"> 25 </span>
+      <a id="time-up">+</a>
+    </div>
+    <div class="break-adj">
+      <p>Break Length</p>
+      <a id="break-down">-</a>
+      <span id="break-length"> 5 </span><a id="break-up">+</a>
+    </div>
+  </div>
+  <div class="timer-box">
+    <div class="timer">
+      <div id="message">Start Work</div>
+      <div id="time">25:00</div>
+    </div>
+    <a id="restart" class="fa fa-refresh restart"></a>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
