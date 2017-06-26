@@ -6,4 +6,4 @@ You can start or stop the clock as you like, as well as modify the length of you
 
 This was my first project using SASS, and I haven't looked back since. 
 
-[![Stay productive, my friends](Optimized-pomodoro-clock.png)](https://etet245.github.io/pomodoro-clock)
+[![Stay productive, my friends](Optimized-pomodoro-pic.png)](https://etet245.github.io/pomodoro-clock)
